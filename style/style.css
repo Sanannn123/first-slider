@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #9e9e9e;
+}
+
+body header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav {
+  margin-top: 20px;
+}
+
+body header nav .row .left-col .logo {
+  margin-left: 50px;
+}
+
+body header nav .row .left-col .logo h2 {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 60px;
+}
+
+body header nav .row .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav .row .right-col ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 25px;
+  width: 20em;
+  color: #e0e0e0;
+}
+
+body header nav .row .right-col li:hover {
+  color: #ffae00;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body footer div {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body footer div .first {
+  display: flow-root;
+}
+
+body footer div .first p {
+  width: 50%;
+}
+
+body footer div .second {
+  display: flow-root;
+}
+
+body footer div .second p {
+  width: 50%;
+}
+
+body footer div .third {
+  display: flow-root;
+}
+
+body footer div .third p {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(158, 158, 158);
+  header {
+    align-items: center;
+    nav {
+      margin-top: 20px;
+      .row {
+        .left-col {
+          .logo {
+            margin-left: 50px;
+          }
+          .logo h2 {
+            font-family: "East Sea Dokdo", cursive;
+            font-size: 60px;
+          }
+        }
+        .right-col {
+          display: flex;
+          justify-content: center;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            text-transform: capitalize;
+            font-size: 25px;
+            width: 20em;
+            color: rgb(224, 224, 224);
+          }
+          li:hover {
+            color: rgb(255, 174, 0);
+            transition: 0.2s;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  main {
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    div {
+      color: #ffffff;
+      display: flex;
+      justify-content: space-evenly;
+      .first {
+        display: flow-root;
+        p {
+          width: 50%;
+        }
+      }
+      .second {
+        display: flow-root;
+        p {
+          width: 50%;
+        }
+      }
+      .third {
+        display: flow-root;
+        p {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
